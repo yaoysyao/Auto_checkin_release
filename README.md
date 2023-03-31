@@ -6,7 +6,7 @@
 - 支持推送消息到pushplus平台(server酱和pushplus选择一个就好，也可以同时推送，如果不配置则不进行推送)
 - 支持推送消息到server酱(server酱和pushplus选择一个就好，也可以同时推送，如果不配置则不进行推送)
 
-## 已打包文件地址，可直接下载解压使用，配置Config.json即可，进入AutoCheckin找到exe点击启动，地址：https://wwto.lanzouy.com/b04duocxc 密码:chrj
+## 已打包文件地址，可直接下载解压使用，配置Config.json即可，进入AutoCheckin找到exe点击启动，地址：https://www.aliyundrive.com/s/yACmJF4ieJt  提取码: sj27
 
 ## 目前支持签到平台
 
