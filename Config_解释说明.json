@@ -1,0 +1,49 @@
+{
+  //  定时任务配置
+  "scheduler": {
+    //    每周几执行，默认’0-6‘,即每天执行
+    "timing_day_of_week": "",
+    //    几点执行，默认早上8点
+    "timing_hour": "",
+    //    几分执行，默认0分
+    "timing_minute": ""
+  },
+  //  签到网站的cookie或者用户名密码配置
+  "cookieOrUser": {
+    //    多个账号签到时将每个账号的cookie放在数组中，如下所示
+    "able_sci": [
+      {
+        "cookie": "多账号配置，将多个账号的cookie放入json数组中"
+      },
+      {
+        "cookie": "多账号配置，将多个账号的cookie放入json数组中"
+      }
+    ],
+    //    单个账号直接填写cookie即可，不需要数组
+    "bilibili_live": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面",
+    "bilibili_icon": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面",
+    "cloud189": {
+      "phone": "单账号配置手机号，不需要写在json数组中，多账号参考上面",
+      "password": "单账号配置密码，不需要写在json数组中，多账号参考上面"
+    },
+    //    以下为天翼云盘多账号配置
+    //    [
+    //{
+    //      "phone": "多账号1",
+    //      "password": "多账号1"
+    //    },
+    //    {
+    //      "phone": "多账号2",
+    //      "password": "多账号2"
+    //    }
+    //    ],
+    "glados": "",
+    "gu_fen_xue_shu": "",
+    "aliyunpan": ""
+  },
+  //  消息推送平台token,支持pushplus,server酱
+  "push_message": {
+    "push_message_pushPlus": "",
+    "push_message_server": ""
+  }
+}

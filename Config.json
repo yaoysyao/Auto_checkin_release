@@ -1,0 +1,30 @@
+{
+  "scheduler": {
+    "timing_day_of_week": "",
+    "timing_hour": "",
+    "timing_minute": ""
+  },
+  "cookieOrUser": {
+    "able_sci": [
+      {
+        "cookie": "多账号配置，将多个账号的cookie放入json数组中"
+      },
+      {
+        "cookie": "多账号配置，将多个账号的cookie放入json数组中"
+      }
+    ],
+    "bilibili_live": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面",
+    "bilibili_icon": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面",
+    "cloud189": {
+      "phone": "单账号配置，不需要写在json数组中，多账号参考上面",
+      "password": "单账号配置，不需要写在json数组中，多账号参考上面"
+    },
+    "glados": "",
+    "gu_fen_xue_shu": "",
+    "aliyunpan": ""
+  },
+  "push_message": {
+    "push_message_pushPlus": "",
+    "push_message_server": ""
+  }
+}
