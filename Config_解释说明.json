@@ -1,4 +1,8 @@
 {
+  "common_config": {
+    //    信息是否输出到控制台
+    "is_print": true
+  },
   //  定时任务配置
   "scheduler": {
     //    每周几执行，默认’0-6‘,即每天执行
@@ -11,39 +15,77 @@
   //  签到网站的cookie或者用户名密码配置
   "cookieOrUser": {
     //    多个账号签到时将每个账号的cookie放在数组中，如下所示
-    "able_sci": [
-      {
-        "cookie": "多账号配置，将多个账号的cookie放入json数组中"
-      },
-      {
-        "cookie": "多账号配置，将多个账号的cookie放入json数组中"
-      }
-    ],
+    "able_sci": {
+      //      是否执行签到
+      "is_checkin": true,
+      //      是否推送消息
+      "push_message": true,
+      "checkin_verification": [
+        {
+          "cookie": "多账号配置，将多个账号的cookie放入json数组中"
+        },
+        {
+          "cookie": "多账号配置，将多个账号的cookie放入json数组中"
+        }
+      ]
+    },
     //    单个账号直接填写cookie即可，不需要数组
-    "bilibili_live": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面",
-    "bilibili_icon": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面",
+    "bilibili_live": {
+      //      是否执行签到
+      "is_checkin": true,
+      "push_message": true,
+      "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
+    },
+    "bilibili_icon": {
+      //      是否执行签到
+      "is_checkin": true,
+      "push_message": true,
+      "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
+    },
     "cloud189": {
-      "phone": "单账号配置手机号，不需要写在json数组中，多账号参考上面",
-      "password": "单账号配置密码，不需要写在json数组中，多账号参考上面"
+      //      是否执行签到
+      "is_checkin": true,
+      "push_message": true,
+      "checkin_verification": {
+        "phone": "单账号配置，不需要写在json数组中，多账号参考上面",
+        "password": "单账号配置，不需要写在json数组中，多账号参考上面"
+      }
     },
     //    以下为天翼云盘多账号配置
-    //    [
-    //{
-    //      "phone": "多账号1",
-    //      "password": "多账号1"
-    //    },
-    //    {
-    //      "phone": "多账号2",
-    //      "password": "多账号2"
-    //    }
-    //    ],
-    "glados": "",
-    "gu_fen_xue_shu": "",
-    "aliyunpan": ""
+    //    "checkin_verification": [
+    //          {
+    //            "phone": "多账号1",
+    //            "password": "多账号1"
+    //          },
+    //          {
+    //            "phone": "多账号2",
+    //            "password": "多账号2"
+    //          }
+    //       ],
+    "glados": {
+      //      是否执行签到
+      "is_checkin": true,
+      "push_message": true,
+      "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
+    },
+    "gu_fen_xue_shu": {
+      //      是否执行签到
+      "is_checkin": true,
+      "push_message": true,
+      "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
+    },
+    "aliyunpan": {
+      //      是否执行签到
+      "is_checkin": true,
+      "push_message": true,
+      "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
+    }
   },
   //  消息推送平台token,支持pushplus,server酱
   "push_message": {
-    "push_message_pushPlus": "",
-    "push_message_server": ""
+    //    推送消息的名称
+    "message_name": "checkin message",
+    "pushPlus": "",
+    "server": ""
   }
 }
