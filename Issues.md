@@ -1,12 +1,14 @@
-版本：V0.1.3
+版本：V0.1.3 需求&BUG
 
 | <span style="display:inline-block;width: 50px"> 序号 </span> | <span style="display:inline-block;width: 50px"> 类型</span> | <span style="display:inline-block;width: 250px"> 问题描述</span> | <span style="display:inline-block;width: 100px"> 重要性 </span> | <span style="display:inline-block;width: 80px">进度</span> | <span style="display:inline-block;width: 80px"> 解决日期 </span> | <span style="display:inline-block;width: 100px"> 备注</span> |
 | :----------------------------------------------------------: | ----------------------------------------------------------- | :----------------------------------------------------------: | :----------------------------------------------------------: | :--------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                              1                               | 需求                                                        |                可以将项目设置为服务并正常签到                |                $\textcolor{red}{重要且紧急}$                 |                 $\textcolor{red}{未解决}$                  |                                                              |                                                              |
+|                              2                               | 需求                                                        |        增加推送信息中总共几条任务，成功几条，失败几条        |                $\textcolor{red}{重要且紧急}$                 |                 $\textcolor{red}{未解决}$                  |                                                              |                                                              |
+|                              3                               | 需求                                                        | 推送消息增加配置是否推送详情，如果不推送详情，则只推送成功/失败条数 |                $\textcolor{red}{重要且紧急}$                 |                 $\textcolor{red}{未解决}$                  |                                                              |                                                              |
 
 
 
-版本：V0.1.2
+版本：V0.1.2 需求&BUG
 
 | <span style="display:inline-block;width: 50px"> 序号 </span> | <span style="display:inline-block;width: 50px"> 类型</span> | <span style="display:inline-block;width: 250px"> 问题描述</span> | <span style="display:inline-block;width: 100px"> 重要性 </span> | <span style="display:inline-block;width: 80px">进度</span> | <span style="display:inline-block;width: 80px"> 解决日期 </span> | <span style="display:inline-block;width: 100px"> 备注</span> |
 | :----------------------------------------------------------: | ----------------------------------------------------------- | :----------------------------------------------------------: | :----------------------------------------------------------: | :--------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |

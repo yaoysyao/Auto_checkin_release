@@ -149,7 +149,3 @@ pushplus（微信）
 <p align="center">
   <img src="images/checkin_info.png" />
 </p>
-
-### 项目打包成exe
-
-#### 使用 Auto PY to EXE将项目打包为exe,然后建立config文件夹，并将想要签到的平台cookie写入即可签到，打包命令：在conda环境下命令行模式输入:'auto-py-to-exe'
