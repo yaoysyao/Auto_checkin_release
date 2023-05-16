@@ -81,7 +81,7 @@ pushplus（微信）
 
 ### 各平台签到教程
 
-#### cookie或者登录信息填写格式请参考[Config_解释说明.json](Config_%BD%E2%CA%CD%CB%B5%C3%F7.json)中的注释
+#### cookie或者登录信息填写格式请参考[Config_解释说明.json](Config_解释说明.json)中的注释
 
 #### 1. glados签到教程
 
