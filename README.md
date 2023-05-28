@@ -30,6 +30,8 @@
 - [科研通签到](https://www.ablesci.com/)
 - [谷粉学术签到](http://bbs.99lb.net/)
 - [阿里云盘](https://www.aliyundrive.com/)
+- [Wps会员时长](https://vip.wps.cn/home)
+- [Wps云空间容量](https://zt.wps.cn/spa/2019/vip_mobile_sign_v2/?csource=pc_cloud_membercenter&position=pc_cloud_sign)
 
 ## 当前需求或BUG(欢迎随时提出issues)
 
@@ -39,14 +41,16 @@
 
 🟢: 正常运行 🔴: 脚本暂不可用 🔵: 可以执行(需更新)
 
-| 状态  | 类别  | 终端  | 任务名称        | 名称                           | Cookie 时长 | 检查日期       | 备注                     |
-|-----|-----|-----|-------------|------------------------------|-----------|------------|------------------------|
-| 🟢️ | 签到  | WEB | GLADOS      | https://glados.rocks/        | 待测试       | 2023-5-13  | 每日签到获取时长,需要开通会员才可以获取时长 |
-| 🟢️ | 签到  | WEB | BILIBILI    | https://www.bilibili.com/    | 待测试       | 2023-02-21 | 直播签到，获取硬币              |
-| 🟢️ | 签到  | WEB | CLOUD189    | https://cloud.189.cn/        | 永久        | 2023-02-21 | 每日签到 +2次抽奖获得空间奖励       |
-| 🟢️ | 签到  | WEB | AbleSci     | https://www.ablesci.com/     | 待测试       | 2023-5-13  | 科研通平台每日签到获取积分          |
-| 🟢️ | 签到  | WEB | gufenxueshu | http://bbs.99lb.net/         | 待测试       | 2023-5-13  | 谷粉学术每日签到获取积分           |
-| 🟢️ | 签到  | WEB | Aliyunpan   | https://www.aliyundrive.com/ | 待测试       | 2023-5-13  | 阿里云盘每日签到               |
+| 状态  | 类别  | 终端  | 任务名称        | 名称                                                                                                  | Cookie 时长 | 检查日期       | 备注                     |
+|-----|-----|-----|-------------|-----------------------------------------------------------------------------------------------------|-----------|------------|------------------------|
+| 🟢️ | 签到  | WEB | GLADOS      | https://glados.rocks/                                                                               | 待测试       | 2023-5-13  | 每日签到获取时长,需要开通会员才可以获取时长 |
+| 🟢️ | 签到  | WEB | BILIBILI    | https://www.bilibili.com/                                                                           | 待测试       | 2023-02-21 | 直播签到，获取硬币              |
+| 🟢️ | 签到  | WEB | CLOUD189    | https://cloud.189.cn/                                                                               | 永久        | 2023-02-21 | 每日签到 +2次抽奖获得空间奖励       |
+| 🟢️ | 签到  | WEB | AbleSci     | https://www.ablesci.com/                                                                            | 待测试       | 2023-5-13  | 科研通平台每日签到获取积分          |
+| 🟢️ | 签到  | WEB | gufenxueshu | http://bbs.99lb.net/                                                                                | 待测试       | 2023-5-13  | 谷粉学术每日签到获取积分           |
+| 🟢️ | 签到  | WEB | Aliyunpan   | https://www.aliyundrive.com/                                                                        | 待测试       | 2023-5-13  | 阿里云盘每日签到               |
+| 🟢️ | 签到  | WEB | WPS_Vip     | https://vip.wps.cn/home                                                                             | 待测试       | 2023-5-28  | WPS签到的会员时长，有时会失败，失败请手动 |
+| 🟢️ | 签到  | WEB | WPS_Cloud   | https://zt.wps.cn/spa/2019/vip_mobile_sign_v2/?csource=pc_cloud_membercenter&position=pc_cloud_sign | 待测试       | 2023-5-28  | Wps签到得空间容量，有时会失败，失败请手动 |
 
 ## 支持的通知列表
 
@@ -56,7 +60,10 @@ pushplus（微信）
 
 ## 更新日志
 
-- 2023-5-21 (v0.1.3版本,正在测试中)
+- 2023-5-28(V0.1.3测试中)
+    1. 新增WPS签到获取会员时长和云空间容量，由于WPS签到策略，有时会需要验证码，如果出现需要验证码的情况，就只能手动签到了，目前设置云空间和会员时长之间签到需要间隔一分钟，如果出现长时间等待，请耐心
+    2. 正在测试做成Windows服务的形式
+- 2023-5-21
     1. 配置文件新增了是否是定时任务配置，如果是定时任务则按照定时任务每日执行，否则只执行一次
     2. 新增签到任务可以设置为服务，可以设置服务启动时执行一次或者每日定时执行(通过设置 **"is_scheduler": true/false**
        实现)
@@ -66,15 +73,12 @@ pushplus（微信）
 - 2023-5-14
     1. 修复glados平台多账号签到错误
 - 2023-5-13
-
     1. 修复天翼云盘登陆失败的问题
     2. 发布0.1.2版本
     3. **签到不再依赖谷歌浏览器，无需谷歌浏览器也可以执行签到(重要)**
     4. config.json文件进行修改，请参考最新版配置文件
     5. 解决[Issues.md](Issues.md)文件中0.1.2版本的需求&BUG
-
 - 2023-4-9 修复BUG
-
 - 2023-3-28 增加阿里云盘签到
 
 ## 使用教程
@@ -134,6 +138,12 @@ pushplus（微信）
 1. 自动获取: 网站登录阿里云盘后，控制台粘贴 JSON.parse(localStorage.token).refresh_token
 2. 手动获取: 网站登录阿里云盘后，可以在开发者工具 -> Application -> Local Storage 中的 token 字段中找到。
 
+#### 7 Wps 签到教程
+
+##### 7.1 使用浏览器访问 https://zt.wps.cn/spa/2019/vip_mobile_sign_v2/?csource=pc_cloud_membercenter&position=pc_cloud_sign 登录，通过F12查看cookie,复制并填写进配置文件 wps_cloud中
+
+##### 7.2 使用浏览器访问 https://vip.wps.cn/home 并登录，通过F12查找到自己的cookie,并放入到配置文件 wps_vip
+
 ### 消息推送配置教程(可选,不配置则不进行推送)
 
 #### 添加 PUSHPLUS的token值 至 配置文件 config/CookieConfig.ini
@@ -156,3 +166,18 @@ pushplus（微信）
 <p align="center">
   <img src="images/checkin_info.png" />
 </p>
+
+### 项目打包成exe
+
+#### 使用 Auto PY to EXE将项目打包为exe,然后建立config文件夹，并将想要签到的平台cookie写入即可签到，打包命令：在conda环境下命令行模式输入:'auto-py-to-exe'
+
+### 如何设置为Winodws服务
+
+#### 使用NSSM工具，具体下载和使用步骤如下:
+
+     1. 下载安装启动工具，具体可以百度如何使用
+     2. 启动工具后选择下载的release中exe文件，设置相应的任务名称，描述等信息，安装服务即可
+     3. 安装服务之前必须确保已经下载了已经打包好的exe文件以及相关目录，并且按照要求在相应的目录放置了并配置了config文件，**最好在服务启动之前自己验证下启动exe有没有错误**
+     4. 设置服务为自动启动，可以在log日志文件中看到已成功启动，如果是定时任务，则可以按照设置的时间执行签到，如果是立即执行，则每次服务启动时执行签到。
+     5. 建议：如果是服务器，则设置为定时任务，每日定时执行，如果是自己的电脑，不能保证每天都开着，那么就设置服务启动时立即执行签到，即："is_scheduler": false
+     6. 如果服务启动后修改了配置文件中的‘common_config’ 和 ‘scheduler’中的相关配置，必须要重新启动服务才可以生效
