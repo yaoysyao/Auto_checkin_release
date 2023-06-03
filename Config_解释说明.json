@@ -1,16 +1,18 @@
 {
   "common_config": {
     //    信息是否输出到控制台
-    "is_print": true
+    "is_print": true,
+    //    是否是定时任务，如果是false，则启动时立即执行一次
+    "is_scheduler": false
   },
   //  定时任务配置
   "scheduler": {
     //    每周几执行，默认’0-6‘,即每天执行
-    "timing_day_of_week": "",
+    "timing_day_of_week": "0-6",
     //    几点执行，默认早上8点
-    "timing_hour": "",
+    "timing_hour": "8",
     //    几分执行，默认0分
-    "timing_minute": ""
+    "timing_minute": "0"
   },
   //  签到网站的cookie或者用户名密码配置
   "cookieOrUser": {
@@ -79,13 +81,27 @@
       "is_checkin": true,
       "push_message": true,
       "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
+    },
+    "wps_vip": {
+      "is_checkin": true,
+      "push_message": true,
+      "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
+    },
+    "wps_cloud": {
+      "is_checkin": true,
+      "push_message": true,
+      "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
     }
   },
   //  消息推送平台token,支持pushplus,server酱
   "push_message": {
-    //    推送消息的名称
+    //    是否推送消息
+    "is_push_message": true,
+    //    推送消息的标题
     "message_name": "checkin message",
+    //    pushPlus token
     "pushPlus": "",
+    //    server 酱token
     "server": ""
   }
 }

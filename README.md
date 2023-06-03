@@ -11,6 +11,7 @@
 - 您使用或者复制了本仓库且本人制作的任何脚本，则视为 `已接受` 此声明，请仔细阅读
 
 > ***您使用或者复制了本仓库且本人制作的任何脚本，则视为 `已接受` 此声明，请仔细阅读***
+> ***本平台不会获取用户的账号密码，不会上传至其他任何地方，如果有所怀疑，请直接删除本程序***
 
 # Auto_CheckIn 多平台自动签到
 
@@ -20,7 +21,7 @@
 
 ## 已打包文件地址，可直接下载解压使用，配置Config.json即可，进入AutoCheckin找到exe点击启动，地址： https://www.aliyundrive.com/s/AdFLyhZ88MN  提取码: 22oh
 
-## 最新版本为v0.1.2
+## 最新版本为v0.1.3
 
 ## 目前支持签到平台
 
@@ -37,7 +38,11 @@
 
 [Issues.md](Issues.md)
 
-## 签到列表
+## 使用教程
+
+参考[使用说明.md](使用说明.md)
+
+## 支持的签到列表
 
 🟢: 正常运行 🔴: 脚本暂不可用 🔵: 可以执行(需更新)
 
@@ -60,9 +65,11 @@ pushplus（微信）
 
 ## 更新日志
 
-- 2023-5-28(V0.1.3测试中)
+- 2023-5-28
     1. 新增WPS签到获取会员时长和云空间容量，由于WPS签到策略，有时会需要验证码，如果出现需要验证码的情况，就只能手动签到了，目前设置云空间和会员时长之间签到需要间隔一分钟，如果出现长时间等待，请耐心
     2. 正在测试做成Windows服务的形式
+    3. 发布v0.1.3
+    4. **重要，部分配置文件进行了修改，功能更多，查看使用说明了解**
 - 2023-5-21
     1. 配置文件新增了是否是定时任务配置，如果是定时任务则按照定时任务每日执行，否则只执行一次
     2. 新增签到任务可以设置为服务，可以设置服务启动时执行一次或者每日定时执行(通过设置 **"is_scheduler": true/false**
@@ -80,104 +87,3 @@ pushplus（微信）
     5. 解决[Issues.md](Issues.md)文件中0.1.2版本的需求&BUG
 - 2023-4-9 修复BUG
 - 2023-3-28 增加阿里云盘签到
-
-## 使用教程
-
-- 在本项目的相同等级的文件夹中建立名为 `config` 的文件夹，将[Config.json](Config.json)
-  放入其中,并将对应平台的cookie写入配置文件中，消息推送使用的为token，如图所示
-
-<p align="center">
-  <img src="images/checkin_config.png" />
-</p>
-
-### 各平台签到教程
-
-#### cookie或者登录信息填写格式请参考[Config_解释说明.json](Config_解释说明.json)中的注释
-
-#### 1. glados签到教程
-
-##### 1.1 添加 COOKIE 至 配置文件 config/Config.json->glados
-
-- 登陆[GLaDOS](https://glados.rocks/)后，F12打开开发者工具。
-- 刷新网页，并在浏览器中提取复制`Cookie`值，注意不要把`Cookie:`前缀加入进来！！！！！
-
-<p align="center">
-  <img src="images/Step1.png" />
-</p>
-
-#### 2 天翼云盘签到教程
-
-##### 2.1 添加 天翼云盘登录信息 至 配置文件 config/Config.json->cloud189
-
-- 在配置文件中写入登录用户名和密码
-
-#### 3 bilibili直播和硬币签到教程
-
-##### 3.1 添加 bilibili直播和硬币cookie 至 配置文件 config/Config.json->bilibili_live，->bilibili_icon
-
-- 同方法1.1
-
-#### 4 科研通签到教程
-
-##### 4.1 添加 科研通cookie 至 配置文件 config/Config.json->able_sci
-
-- 同方法1.1
-
-#### 5 谷粉学术签到教程
-
-##### 5.1 添加 cookie 至 配置文件 config/Config.json->gu_fen_xue_shu
-
-- 同方法1.1
-
-#### 6 阿里云盘签到教程
-
-##### 6.1 添加 refresh_token 至 配置文件 config/Config.json->aliyunpan
-
-###### refresh_token获取方法:
-
-1. 自动获取: 网站登录阿里云盘后，控制台粘贴 JSON.parse(localStorage.token).refresh_token
-2. 手动获取: 网站登录阿里云盘后，可以在开发者工具 -> Application -> Local Storage 中的 token 字段中找到。
-
-#### 7 Wps 签到教程
-
-##### 7.1 使用浏览器访问 https://zt.wps.cn/spa/2019/vip_mobile_sign_v2/?csource=pc_cloud_membercenter&position=pc_cloud_sign 登录，通过F12查看cookie,复制并填写进配置文件 wps_cloud中
-
-##### 7.2 使用浏览器访问 https://vip.wps.cn/home 并登录，通过F12查找到自己的cookie,并放入到配置文件 wps_vip
-
-### 消息推送配置教程(可选,不配置则不进行推送)
-
-#### 添加 PUSHPLUS的token值 至 配置文件 config/CookieConfig.ini
-
-- 登陆[pushplus](http://www.pushplus.plus/)
-- 将token写入config文件中
-
-<p align="center">
-  <img src="images/pushplus_token.png" />
-</p>
-
-#### 如果使用[server酱](https://sct.ftqq.com/)，请添加 SERVER_TOKEN 至 Secrets,如果不想推送通知可以不填写此项
-
-- 将token写入config文件中
-
-### 请注意，如果两个推送平台均配置，则会同时推送至两个平台，建议只配置一个就好
-
-### 推送消息时，所有的签到只推送一条通知，如下所示
-
-<p align="center">
-  <img src="images/checkin_info.png" />
-</p>
-
-### 项目打包成exe
-
-#### 使用 Auto PY to EXE将项目打包为exe,然后建立config文件夹，并将想要签到的平台cookie写入即可签到，打包命令：在conda环境下命令行模式输入:'auto-py-to-exe'
-
-### 如何设置为Winodws服务
-
-#### 使用NSSM工具，具体下载和使用步骤如下:
-
-     1. 下载安装启动工具，具体可以百度如何使用
-     2. 启动工具后选择下载的release中exe文件，设置相应的任务名称，描述等信息，安装服务即可
-     3. 安装服务之前必须确保已经下载了已经打包好的exe文件以及相关目录，并且按照要求在相应的目录放置了并配置了config文件，**最好在服务启动之前自己验证下启动exe有没有错误**
-     4. 设置服务为自动启动，可以在log日志文件中看到已成功启动，如果是定时任务，则可以按照设置的时间执行签到，如果是立即执行，则每次服务启动时执行签到。
-     5. 建议：如果是服务器，则设置为定时任务，每日定时执行，如果是自己的电脑，不能保证每天都开着，那么就设置服务启动时立即执行签到，即："is_scheduler": false
-     6. 如果服务启动后修改了配置文件中的‘common_config’ 和 ‘scheduler’中的相关配置，必须要重新启动服务才可以生效

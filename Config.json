@@ -1,11 +1,12 @@
 {
   "common_config": {
-    "is_print": true
+    "is_print": true,
+    "is_scheduler": true
   },
   "scheduler": {
-    "timing_day_of_week": "",
-    "timing_hour": "",
-    "timing_minute": ""
+    "timing_day_of_week": "0-6",
+    "timing_hour": "8",
+    "timing_minute": "0"
   },
   "cookieOrUser": {
     "able_sci": {
@@ -52,11 +53,22 @@
       "is_checkin": true,
       "push_message": true,
       "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
+    },
+    "wps_vip": {
+      "is_checkin": true,
+      "push_message": true,
+      "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
+    },
+    "wps_cloud": {
+      "is_checkin": true,
+      "push_message": true,
+      "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
     }
   },
   "push_message": {
+    "is_push_message": true,
     "message_name": "checkin message",
-    "pushPlus": "",
-    "server": ""
+    "pushPlus": "token",
+    "server": "token"
   }
 }
