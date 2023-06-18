@@ -1,7 +1,8 @@
 {
   "common_config": {
     "is_print": true,
-    "is_scheduler": true
+    "is_scheduler": true,
+    "use_type": 1
   },
   "scheduler": {
     "timing_day_of_week": "0-6",
@@ -60,6 +61,16 @@
       "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
     },
     "wps_cloud": {
+      "is_checkin": true,
+      "push_message": true,
+      "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
+    },
+    "tieba": {
+      "is_checkin": true,
+      "push_message": true,
+      "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
+    },
+    "wuaipojie": {
       "is_checkin": true,
       "push_message": true,
       "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
