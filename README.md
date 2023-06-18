@@ -21,7 +21,7 @@
 
 ## 已打包文件地址，可直接下载解压使用，配置yaoys_checkin_config.json即可，进入AutoCheckin找到exe点击启动，地址： https://www.aliyundrive.com/s/AdFLyhZ88MN  提取码: 22oh
 
-## 最新版本为v0.1.3
+## 最新版本为v0.1.8
 
 ## 目前支持签到平台
 
