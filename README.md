@@ -37,7 +37,7 @@
 
 ## 当前需求或BUG(欢迎随时提出issues)
 
-[Issues.md](说明文件/Issues.md)
+[Issues.md](Issues.md)
 
 ## 签到列表
 
@@ -99,7 +99,7 @@ pushplus（微信）
 
 ## 使用教程
 
-参考[使用说明.md](说明文件/使用说明.md)
+参考[使用说明.md](使用说明.md)
 
 ### 项目打包成exe
 
