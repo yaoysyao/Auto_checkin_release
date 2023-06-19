@@ -20,7 +20,8 @@
 - 支持推送消息到server酱(server酱和pushplus选择一个就好，也可以同时推送，如果不配置则不进行推送)
 
 ## 已打包文件地址，可直接下载解压使用，配置yaoys_checkin_config.json即可，进入AutoCheckin找到exe点击启动
-## 阿里云盘文件格式为exe格式，选择免安装版和安装版下载后解压exe得到程序或者安装包，阿里云盘地址：https://www.aliyundrive.com/s/ZeotJdW4iuh 提取码: 15oy
+## 阿里云盘文件格式为exe格式，msi名称为安装包，green名称为免安装版
+## 选择免安装版和安装版下载后解压exe得到程序或者安装包，阿里云盘地址：https://www.aliyundrive.com/s/ZeotJdW4iuh 提取码: 15oy
 
 ## 最新版本为v0.1.8
 
