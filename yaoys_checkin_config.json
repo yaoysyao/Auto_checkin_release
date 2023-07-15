@@ -74,6 +74,16 @@
       "is_checkin": true,
       "push_message": true,
       "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
+    },
+    "jiaoyimao": {
+      "is_checkin": true,
+      "push_message": true,
+      "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
+    },
+    "piaoyunge": {
+      "is_checkin": true,
+      "push_message": true,
+      "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
     }
   },
   "push_message": {

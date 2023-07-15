@@ -20,10 +20,12 @@
 - 支持推送消息到server酱(server酱和pushplus选择一个就好，也可以同时推送，如果不配置则不进行推送)
 
 ## 已打包文件地址，可直接下载解压使用，配置yaoys_checkin_config.json即可，进入AutoCheckin找到exe点击启动
+
 ## 阿里云盘文件格式为exe格式，msi名称为安装包，green名称为免安装版
+
 ## 选择免安装版和安装版下载后解压exe得到程序或者安装包，阿里云盘地址：https://www.aliyundrive.com/s/ZeotJdW4iuh 提取码: 15oy
 
-## 最新版本为v0.1.8
+## 最新版本为v0.1.9
 
 ## 目前支持签到平台
 
@@ -34,28 +36,34 @@
 - [谷粉学术签到](http://bbs.99lb.net/)
 - [阿里云盘](https://www.aliyundrive.com/)
 - [Wps会员时长](https://vip.wps.cn/home)
-- [Wps云空间容量](https://zt.wps.cn/spa/2019/vip_mobile_sign_v2/?csource=pc_cloud_membercenter&position=pc_cloud_sign)
-- [百度贴吧]
+- [Wps云空间容量](https://zt.wps.cn/spa/2019/vip_mobile_sign_v2/?csource=pc_cloud_membercenter&position=pc_cloud_sign/)
+- [百度贴吧](https://tieba.baidu.com/)
+- [交易猫](https://www.jiaoyimao.com/)
+- [飘云阁](https://www.chinapyg.com/)
+- [吾爱破解](https://www.52pojie.cn/portal.php)
 
 ## 当前需求或BUG(欢迎随时提出issues)
 
-[Issues.md](Issues.md)
+[Issues.md](说明文件/Issues.md)
 
 ## 签到列表
 
 🟢: 正常运行 🔴: 脚本暂不可用 🔵: 可以执行(需更新)
 
-| 状态 | 类别 | 终端 | 任务名称    | 名称                                                         | Cookie 时长 | 检查日期   | 备注                                        |
-| ---- | ---- | ---- | ----------- | ------------------------------------------------------------ | ----------- | ---------- | ------------------------------------------- |
-| 🟢️    | 签到 | WEB  | GLADOS      | https://glados.rocks/                                        | 待测试      | 2023-5-13  | 每日签到获取时长,需要开通会员才可以获取时长 |
-| 🟢️    | 签到 | WEB  | BILIBILI    | https://www.bilibili.com/                                    | 待测试      | 2023-02-21 | 直播签到，获取硬币                          |
-| 🟢️    | 签到 | WEB  | CLOUD189    | https://cloud.189.cn/                                        | 永久        | 2023-02-21 | 每日签到 +2次抽奖获得空间奖励               |
-| 🟢️    | 签到 | WEB  | AbleSci     | https://www.ablesci.com/                                     | 待测试      | 2023-5-13  | 科研通平台每日签到获取积分                  |
-| 🟢️    | 签到 | WEB  | gufenxueshu | http://bbs.99lb.net/                                         | 待测试      | 2023-5-13  | 谷粉学术每日签到获取积分                    |
-| 🟢️    | 签到 | WEB  | Aliyunpan   | https://www.aliyundrive.com/                                 | 待测试      | 2023-5-13  | 阿里云盘每日签到                            |
-| 🟢️    | 签到 | WEB  | WPS_Vip     | https://vip.wps.cn/home                                      | 待测试      | 2023-5-28  | WPS签到的会员时长，有时会失败，失败请手动   |
-| 🟢️    | 签到 | WEB  | WPS_Cloud   | https://zt.wps.cn/spa/2019/vip_mobile_sign_v2/?csource=pc_cloud_membercenter&position=pc_cloud_sign | 待测试      | 2023-5-28  | Wps签到得空间容量，有时会失败，失败请手动   |
-| 🟢️    | 签到 | WEB  | tieba       | https://tieba.baidu.com/                                     | 待测试      | 2023-6-18  | 百度贴吧签到                                |
+| 状态 | 类别 | 终端 | 任务名称        | 名称                                                         | Cookie 时长 | 检查日期       | 备注                     |
+| ---- | ---- | ---- |-------------| ------------------------------------------------------------ |-----------|------------|------------------------|
+| 🟢️    | 签到 | WEB  | GLADOS      | https://glados.rocks/                                        | 待测试       | 2023-5-13  | 每日签到获取时长,需要开通会员才可以获取时长 |
+| 🟢️    | 签到 | WEB  | BILIBILI    | https://www.bilibili.com/                                    | 待测试       | 2023-02-21 | 直播签到，获取硬币              |
+| 🟢️    | 签到 | WEB  | CLOUD189    | https://cloud.189.cn/                                        | 永久        | 2023-02-21 | 每日签到 +2次抽奖获得空间奖励       |
+| 🟢️    | 签到 | WEB  | AbleSci     | https://www.ablesci.com/                                     | 待测试       | 2023-5-13  | 科研通平台每日签到获取积分          |
+| 🟢️    | 签到 | WEB  | gufenxueshu | http://bbs.99lb.net/                                         | 待测试       | 2023-5-13  | 谷粉学术每日签到获取积分           |
+| 🟢️    | 签到 | WEB  | Aliyunpan   | https://www.aliyundrive.com/                                 | 待测试       | 2023-5-13  | 阿里云盘每日签到               |
+| 🟢️    | 签到 | WEB  | WPS_Vip     | https://vip.wps.cn/home                                      | 待测试       | 2023-5-28  | WPS签到的会员时长，有时会失败，失败请手动 |
+| 🟢️    | 签到 | WEB  | WPS_Cloud   | https://zt.wps.cn/spa/2019/vip_mobile_sign_v2/?csource=pc_cloud_membercenter&position=pc_cloud_sign | 待测试       | 2023-5-28  | Wps签到得空间容量，有时会失败，失败请手动 |
+| 🟢️    | 签到 | WEB  | tieba       | https://tieba.baidu.com/                                     | 待测试       | 2023-6-18  | 百度贴吧签到                 |
+| 🟢️    | 签到 | WEB  | jiaoyimao   | https://www.jiaoyimao.com/                                   | 2天/3天     | 2023-7-5   | 交易猫签到得积分               |
+| 🟢️    | 签到 | WEB  | piaoyunge   | https://www.chinapyg.com                                 | 待测试       | 2023-7-10  | 飘云阁签到得积分               |
+| 🟢️    | 签到 | WEB  | wuaipojie   | https://www.52pojie.cn/portal.php                              | 待测试       | 2023-7-10  | 吾爱破解签到得积分              |
 
 ## 支持的通知列表
 
@@ -65,6 +73,11 @@ pushplus（微信）
 
 ## 更新日志
 
+- 2023-7-10
+    1. 新增飘云阁签到，吾爱破解签到
+    2. 新增版本检测功能
+- 2023-7-5
+    1. 新增交易猫签到(Cookie很容易失效，暂时还没想到怎么通过账号密码登录)
 - 2023-6-18
     1. 新增百度贴吧签到，每个贴吧之间签到间隔为5秒，关注的贴吧越多，签到时间越久
     2. 支持青龙面板部署
@@ -101,7 +114,7 @@ pushplus（微信）
 
 ## 使用教程
 
-参考[使用说明.md](使用说明.md)
+参考[使用说明.md](说明文件/使用说明.md)
 
 ### 项目打包成exe
 
