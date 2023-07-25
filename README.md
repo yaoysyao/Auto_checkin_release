@@ -46,7 +46,7 @@
 
 ## 当前需求或BUG(欢迎随时提出issues)
 
-[Issues.md](说明文件/Issues.md)
+## [Issues.md](Issues.md)
 
 ## 签到列表
 
@@ -69,9 +69,9 @@
 
 ## 支持的通知列表
 
-server 酱（微信）
+- server 酱（微信）
 
-pushplus（微信）
+- pushplus（微信）
 
 ## 更新日志
 
@@ -110,13 +110,13 @@ pushplus（微信）
     2. 发布0.1.2版本
     3. **签到不再依赖谷歌浏览器，无需谷歌浏览器也可以执行签到(重要)**
     4. yaoys_checkin_config.json文件进行修改，请参考最新版配置文件
-    5. 解决[Issues.md](说明文件/Issues.md)文件中0.1.2版本的需求&BUG
+    5. 解决[Issues.md](Issues.md)文件中0.1.2版本的需求&BUG
 - 2023-4-9 修复BUG
 - 2023-3-28 增加阿里云盘签到
 
 ## 使用教程
 
-参考[使用说明.md](说明文件/使用说明.md)
+参考[使用说明.md](使用说明.md)
 
 ### 项目打包成exe
 
