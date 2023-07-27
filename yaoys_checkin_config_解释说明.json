@@ -4,7 +4,7 @@
     "is_print": true,
     //    是否是定时任务，如果是false，则启动时立即执行一次
     "is_scheduler": false,
-    //    使用方式, 0:青龙面板，腾讯云函数等直接使用pip安装的方式，1：exe启动或者使用Windows服务的形式
+    //    使用方式, 0:青龙面板直接使用pip安装的方式，1：exe启动，2：使用Windows服务的形式
     "use_type": 0
   },
   //  定时任务配置
