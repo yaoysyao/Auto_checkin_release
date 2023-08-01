@@ -11,7 +11,7 @@
   "scheduler": {
     //    每周几执行，默认’0-6‘,即每天执行
     "timing_day_of_week": "",
-    //    几点执行，默认早上8点
+    //    几点执行，默认早上10点
     "timing_hour": "",
     //    几分执行，默认0分
     "timing_minute": ""

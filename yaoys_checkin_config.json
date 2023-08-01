@@ -6,7 +6,7 @@
   },
   "scheduler": {
     "timing_day_of_week": "0-6",
-    "timing_hour": "8",
+    "timing_hour": "10",
     "timing_minute": "0"
   },
   "cookieOrUser": {
