@@ -15,14 +15,15 @@
 
 # 由于有些平台的限制，强烈建议签到时间设置的别太早，最好是早上9：30以后
 
-# 号外号外，计划全面支持阿里云盘新版本签到
-## 包括每日做签到任务，具体可查看 [阿里云盘新版本签到说明.md](阿里云盘新版本签到说明.md)，目前正在测试中，没有问题将发布新版本
+# 目前已全面支持阿里云盘新版本签到中所有已知的任务，并且自己部署到本地，安全无忧，全网目前唯一的可以部署到自己本地并且支持阿里云盘新版本签到的项目
+
 # Auto_CheckIn 多平台自动签到
 
 - 支持多用户签到
 - 支持推送消息到pushplus平台(server酱和pushplus选择一个就好，也可以同时推送，如果不配置则不进行推送)
 - 支持推送消息到server酱(server酱和pushplus选择一个就好，也可以同时推送，如果不配置则不进行推送)
-- **目前已全面支持阿里云盘新版本签到中所有已知的任务，并且自己部署到本地，安全无忧，全网目前唯一的可以部署到自己本地并且支持阿里云盘新版本签到的项目**
+- **目前已全面支持阿里云盘新版本签到中所有已知的任务，并且自己部署到本地，安全无忧，全网目前唯一的可以部署到自己本地并且支持阿里云盘新版本签到的项目
+  **
 
 ## 已打包文件地址，可直接下载解压使用，配置yaoys_checkin_config.json即可，进入AutoCheckin找到exe点击启动
 
@@ -30,7 +31,7 @@
 
 ## 选择免安装版和安装版下载后解压exe得到程序或者安装包，阿里云盘地址：https://www.aliyundrive.com/s/ZeotJdW4iuh 提取码: 15oy
 
-## 最新版本为v0.1.10
+## 最新版本为v0.1.11
 
 ## 目前支持签到平台
 
@@ -40,7 +41,7 @@
 - [科研通签到](https://www.ablesci.com/)
 - [谷粉学术签到](http://bbs.99lb.net/)
 - [阿里云盘](https://www.aliyundrive.com/)
-- [Wps会员时长](https://vip.wps.cn/home)
+- ~~[Wps会员时长](https://vip.wps.cn/home)(已失效)~~
 - [Wps云空间容量](https://zt.wps.cn/spa/2019/vip_mobile_sign_v2/?csource=pc_cloud_membercenter&position=pc_cloud_sign/)
 - [百度贴吧](https://tieba.baidu.com/)
 - [交易猫](https://www.jiaoyimao.com/)
@@ -53,7 +54,7 @@
 
 ## 签到列表
 
-🟢: 正常运行 🔴: 脚本暂不可用 🔵: 可以执行(需更新)
+🟢: 正常运行 🔴: 脚本暂不可用 🔵: 可以执行(需更新) 🟤: 随缘
 
 | 状态  | 类别  | 终端  | 任务名称        | 名称                                                                                                  | Cookie 时长 | 检查日期       | 备注                     |
 |-----|-----|-----|-------------|-----------------------------------------------------------------------------------------------------|-----------|------------|------------------------|
@@ -63,8 +64,8 @@
 | 🟢️ | 签到  | WEB | AbleSci     | https://www.ablesci.com/                                                                            | 待测试       | 2023-5-13  | 科研通平台每日签到获取积分          |
 | 🟢️ | 签到  | WEB | gufenxueshu | http://bbs.99lb.net/                                                                                | 待测试       | 2023-5-13  | 谷粉学术每日签到获取积分           |
 | 🟢️ | 签到  | WEB | Aliyunpan   | https://www.aliyundrive.com/                                                                        | 待测试       | 2023-5-13  | 阿里云盘每日签到               |
-| 🟢️ | 签到  | WEB | WPS_Vip     | https://vip.wps.cn/home                                                                             | 待测试       | 2023-5-28  | WPS签到的会员时长，有时会失败，失败请手动 |
-| 🟢️ | 签到  | WEB | WPS_Cloud   | https://zt.wps.cn/spa/2019/vip_mobile_sign_v2/?csource=pc_cloud_membercenter&position=pc_cloud_sign | 待测试       | 2023-5-28  | Wps签到得空间容量，有时会失败，失败请手动 |
+| 🔴  | 签到  | WEB | WPS_Vip     | https://vip.wps.cn/home                                                                             | 待测试       | 2023-5-28  | WPS签到的会员时长，有时会失败，失败请手动 |
+| 🟤  | 签到  | WEB | WPS_Cloud   | https://zt.wps.cn/spa/2019/vip_mobile_sign_v2/?csource=pc_cloud_membercenter&position=pc_cloud_sign | 待测试       | 2023-5-28  | Wps签到得空间容量，有时会失败，失败请手动 |
 | 🟢️ | 签到  | WEB | tieba       | https://tieba.baidu.com/                                                                            | 待测试       | 2023-6-18  | 百度贴吧签到                 |
 | 🟢️ | 签到  | WEB | jiaoyimao   | https://www.jiaoyimao.com/                                                                          | 2天/3天     | 2023-7-5   | 交易猫签到得积分               |
 | 🟢️ | 签到  | WEB | piaoyunge   | https://www.chinapyg.com                                                                            | 待测试       | 2023-7-10  | 飘云阁签到得积分               |
