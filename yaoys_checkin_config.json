@@ -6,13 +6,15 @@
   },
   "scheduler": {
     "timing_day_of_week": "0-6",
-    "timing_hour": "10",
+    "timing_hour": "8",
     "timing_minute": "0"
   },
   "cookieOrUser": {
     "able_sci": {
       "is_checkin": true,
       "push_message": true,
+      "more_time_sleep": 0,
+      "time_sleep": 0,
       "checkin_verification": [
         {
           "cookie": "多账号配置，将多个账号的cookie放入json数组中"
@@ -25,16 +27,22 @@
     "bilibili_live": {
       "is_checkin": true,
       "push_message": true,
+      "more_time_sleep": 0,
+      "time_sleep": 0,
       "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
     },
     "bilibili_icon": {
       "is_checkin": true,
       "push_message": true,
+      "more_time_sleep": 0,
+      "time_sleep": 0,
       "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
     },
     "cloud189": {
       "is_checkin": true,
       "push_message": true,
+      "more_time_sleep": 0,
+      "time_sleep": 0,
       "checkin_verification": {
         "phone": "单账号配置，不需要写在json数组中，多账号参考上面",
         "password": "单账号配置，不需要写在json数组中，多账号参考上面"
@@ -43,46 +51,64 @@
     "glados": {
       "is_checkin": true,
       "push_message": true,
+      "more_time_sleep": 0,
+      "time_sleep": 0,
       "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
     },
     "gu_fen_xue_shu": {
       "is_checkin": true,
       "push_message": true,
+      "more_time_sleep": 0,
+      "time_sleep": 0,
       "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
     },
     "aliyunpan": {
       "is_checkin": true,
       "push_message": true,
+      "more_time_sleep": 0,
+      "time_sleep": 0,
       "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
     },
     "wps_vip": {
       "is_checkin": true,
       "push_message": true,
+      "more_time_sleep": 0,
+      "time_sleep": 0,
       "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
     },
     "wps_cloud": {
       "is_checkin": true,
       "push_message": true,
+      "more_time_sleep": 0,
+      "time_sleep": 0,
       "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
     },
     "tieba": {
       "is_checkin": true,
       "push_message": true,
+      "more_time_sleep": 0,
+      "time_sleep": 0,
       "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
     },
     "wuaipojie": {
       "is_checkin": true,
       "push_message": true,
+      "more_time_sleep": 0,
+      "time_sleep": 0,
       "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
     },
     "jiaoyimao": {
       "is_checkin": true,
       "push_message": true,
+      "more_time_sleep": 0,
+      "time_sleep": 0,
       "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
     },
     "piaoyunge": {
       "is_checkin": true,
       "push_message": true,
+      "more_time_sleep": 0,
+      "time_sleep": 0,
       "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
     }
   },
