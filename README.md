@@ -32,9 +32,8 @@
 ## 选择免安装版和安装版下载后解压exe得到程序或者安装包，阿里云盘地址：https://www.aliyundrive.com/s/ZeotJdW4iuh 提取码: 15oy
 
 ## 版本说明
-**所有版本功能相同，但是版本号不同**
-- Windows版本:最新版本为v0.1.11
-- 青龙面板版本：最新版本为v0.1.13
+- Windows版本:最新版本为v0.1.14
+- 青龙面板版本：最新版本为v0.1.14
 
 ## 目前支持签到平台
 
@@ -66,7 +65,7 @@
 | 🟢️ | 签到  | WEB | CLOUD189    | https://cloud.189.cn/                                                                               | 永久        | 2023-02-21 | 每日签到 +2次抽奖获得空间奖励       |
 | 🟢️ | 签到  | WEB | AbleSci     | https://www.ablesci.com/                                                                            | 待测试       | 2023-5-13  | 科研通平台每日签到获取积分          |
 | 🟢️ | 签到  | WEB | gufenxueshu | http://bbs.99lb.net/                                                                                | 待测试       | 2023-5-13  | 谷粉学术每日签到获取积分           |
-| 🟢️ | 签到  | WEB | Aliyunpan   | https://www.aliyundrive.com/                                                                        | 待测试       | 2023-5-13  | 阿里云盘每日签到               |
+| 🟢️ | 签到  | WEB | Aliyunpan   | https://www.aliyundrive.com/                                                                        | 待测试       | 2023-5-13  | 阿里云盘每日签到&各种任务          |
 | 🔴  | 签到  | WEB | WPS_Vip     | https://vip.wps.cn/home                                                                             | 待测试       | 2023-5-28  | WPS签到的会员时长，有时会失败，失败请手动 |
 | 🟤  | 签到  | WEB | WPS_Cloud   | https://zt.wps.cn/spa/2019/vip_mobile_sign_v2/?csource=pc_cloud_membercenter&position=pc_cloud_sign | 待测试       | 2023-5-28  | Wps签到得空间容量，有时会失败，失败请手动 |
 | 🟢️ | 签到  | WEB | tieba       | https://tieba.baidu.com/                                                                            | 待测试       | 2023-6-18  | 百度贴吧签到                 |
