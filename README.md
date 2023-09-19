@@ -61,7 +61,7 @@
 - [百度贴吧](https://tieba.baidu.com/)
 - [交易猫](https://www.jiaoyimao.com/)
 - [飘云阁](https://www.chinapyg.com/)
-- [吾爱破解](https://www.52pojie.cn/portal.php)
+- ~~[吾爱破解](https://www.52pojie.cn/portal.php)(已失效)~~
 
 ## 当前需求或BUG(欢迎随时提出issues)
 
@@ -99,22 +99,5 @@ pushplus（微信）
 ## 使用教程
 
 参考[使用说明.md](使用说明.md)
-
-### 项目打包成exe
-
-#### 使用 Auto PY to EXE将项目打包为exe,然后建立config文件夹，并将想要签到的平台cookie写入即可签到，打包命令：在conda环境下命令行模式输入:'auto-py-to-exe'
-
-#### 使用 cx_Freeze 打包为 exe & msi  'python setup.py build' python setup.py bdist_msi
-
-### 如何设置为Winodws服务
-
-#### 使用NSSM工具，具体下载和使用步骤如下:
-
-     1. 下载安装启动工具，具体可以百度如何使用
-     2. 启动工具后选择下载的release中exe文件，设置相应的任务名称，描述等信息，安装服务即可
-     3. 安装服务之前必须确保已经下载了已经打包好的exe文件以及相关目录，并且按照要求在相应的目录放置了并配置了config文件，**最好在服务启动之前自己验证下启动exe有没有错误**
-     4. 设置服务为自动启动，可以在log日志文件中看到已成功启动，如果是定时任务，则可以按照设置的时间执行签到，如果是立即执行，则每次服务启动时执行签到。
-     5. 建议：如果是服务器，则设置为定时任务，每日定时执行，如果是自己的电脑，不能保证每天都开着，那么就设置服务启动时立即执行签到，即："is_scheduler": false
-     6. 如果服务启动后修改了配置文件中的‘common_config’ 和 ‘scheduler’中的相关配置，必须要重新启动服务才可以生效
 
 ## 青龙面板使用请参考[青龙面板配置使用.md](青龙面板配置使用.md)
