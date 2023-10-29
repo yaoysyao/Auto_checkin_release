@@ -98,6 +98,7 @@
 | 🟢️ | 签到  | WEB | jiaoyimao   | https://www.jiaoyimao.com/                                                                          | 2天/3天     | 2023-7-5   | 交易猫签到得积分               |
 | 🟢️ | 签到  | WEB | piaoyunge   | https://www.chinapyg.com                                                                            | 待测试       | 2023-7-10  | 飘云阁签到得积分               |
 | 🔴  | 签到  | WEB | wuaipojie   | https://www.52pojie.cn/portal.php                                                                   | 待测试       | 2023-7-10  | 吾爱破解签到得积分              |
+| 🟢️  | 签到  | WEB | hifini   | https://www.hifini.com/                                                                 | 待测试       | 2023-7-10  | hifini网站签到获取金币         |
 
 ## 支持的通知列表
 
