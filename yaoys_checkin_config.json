@@ -77,6 +77,13 @@
       "time_sleep": 0,
       "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
     },
+    "hifini": {
+      "is_checkin": true,
+      "push_message": true,
+      "more_time_sleep": 0,
+      "time_sleep": 0,
+      "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
+    },
     "wps_cloud": {
       "is_checkin": true,
       "push_message": true,

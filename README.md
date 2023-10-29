@@ -38,16 +38,24 @@
 
 ## 版本说明
 
-- Windows版本:最新版本为v0.1.15
-- 青龙面板版本：最新版本为v0.1.15
+- Windows版本:最新版本为v0.1.16
+- 青龙面板版本：最新版本为v0.1.16
 
 ## 最近更新，更多更新内容请查看[更新日志](更新日志.md)
-- 2023-9-24 
-  1. 阿里云盘增加分享好运口令(点击分享->今日好运卡)(支持),参考仓库中文件新增加的内容，自行修改[yaoys_aliyunpan_daily_task.json](yaoys_aliyunpan_daily_task.json)中的内容，或者直接使用最新文件
-  2. 阿里云盘增加接好运瓶并转存任意1个文件(支持),参考仓库中文件新增加的内容，自行修改[yaoys_aliyunpan_daily_task.json](yaoys_aliyunpan_daily_task.json)中的内容，或者直接使用最新文件
-
+- 2023-10-28
+1. 新增HIFINI网站签到(https://www.hifini.com/),配置文件新增网站相关配置
+`"hifini": {
+      "is_checkin": true,
+      "push_message": true,
+      "more_time_sleep": 0,
+      "time_sleep": 0,
+      "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
+    },`
+2. 修复阿里云盘签到任务的一些问题
+3. 版本号更新为v0.1.16
 ## 目前支持签到平台
 
+- [hifini网站](https://www.hifini.com/)
 - [GLaDOS平台](https://glados.rocks/)
 - [天翼云盘](https://cloud.189.cn/web/login.html)
 - [bilibili直播](https://live.bilibili.com)
