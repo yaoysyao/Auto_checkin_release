@@ -43,5 +43,15 @@
     "name": "接好运瓶并转存任意1个文件",
     "remind": "接好运瓶并转存任意1个文件",
     "type": "fish_save"
+  },
+  {
+    "name": "开启手机自动备份并持续至少一小时",
+    "remind": "开启手机自动备份并持续至少一小时||开启「自动同步电脑文件夹至少一小时」",
+    "type": "auto_backup_one_hour"
+  },
+  {
+    "name": "开启自动备份并备份满10个文件",
+    "remind": "开启自动备份并备份满10个文件",
+    "type": "auto_backup_upload_file"
   }
 ]
