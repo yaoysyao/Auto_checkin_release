@@ -14,7 +14,16 @@
     //    几点执行，默认早上8点
     "timing_hour": "",
     //    几分执行，默认0分
-    "timing_minute": ""
+    "timing_minute": "",
+    //    执行一次后是否随机时间执行下次
+    "random_scheduler_time": true,
+    //    下次随机执行的小时范围
+    "random_scheduler_time_hour": [
+      7,
+      8,
+      9,
+      10
+    ]
   },
   //  签到网站的cookie或者用户名密码配置
   "cookieOrUser": {
@@ -119,6 +128,8 @@
       "time_sleep": 0,
       //      是否执行时光设备间任务
       "deviceRoom_task": false,
+      //      时光设备间设备数量不足5个时自动创建虚拟设备后是否自动删除
+      "auto_delete_device": false,
       "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
     },
     "wps_vip": {

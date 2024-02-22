@@ -7,7 +7,14 @@
   "scheduler": {
     "timing_day_of_week": "0-6",
     "timing_hour": "8",
-    "timing_minute": "0"
+    "timing_minute": "0",
+    "random_scheduler_time": true,
+    "random_scheduler_time_hour": [
+      7,
+      8,
+      9,
+      10
+    ]
   },
   "cookieOrUser": {
     "able_sci": {
@@ -68,6 +75,7 @@
       "more_time_sleep": 0,
       "time_sleep": 0,
       "deviceRoom_task": false,
+      "auto_delete_device": false,
       "checkin_verification": "单账号配置，直接填写cookie即可，不需要写在json数组中，多账号参考上面"
     },
     "wps_vip": {
